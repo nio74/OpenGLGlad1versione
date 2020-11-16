@@ -5,9 +5,10 @@
             "includePath": [
                 "${workspaceFolder}/src/",
                 "${workspaceFolder}/include/",
-                "${workspaceFolder}/include/shaders",
+                "${workspaceFolder}/include/shaders/",
                 "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1",
-                "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"
+                "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+           
             ],
             "defines": [],
             "macFrameworkPath": [

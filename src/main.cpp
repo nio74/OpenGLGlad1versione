@@ -52,7 +52,7 @@ int main() {
     // build and compile our shader program
     // ------------------------------------
 
-    MyClassShader ourShader("vertexShader.glsl", "ƒragmentShader.glsl");
+    MyClassShader ourShader("/Users/paolomazzon/Desktop/Progettic++/OPENGL/OpenGLGlad1versione/include/shaders/vertexShader.glsl", "/Users/paolomazzon/Desktop/Progettic++/OPENGL/OpenGLGlad1versione/include/shaders/ƒragmentShader.glsl");
 
     //char Stampa = 'p';
     //Shader("edfsdf");
@@ -113,8 +113,8 @@ int main() {
 
         //disegnamo il nostro triangolo
         float offset = 0.2f;
-        ourShader.setFloat("xOffset", offset);
-        ourShader.use();
+       // ourShader.setFloat("xOffset", offset);
+        //ourShader.use();
         glBindVertexArray(VAO);
         glDrawArrays(GL_TRIANGLES, 0,3);
         // glBindVertexArray (0); // non è necessario svincolarlo ogni volta
